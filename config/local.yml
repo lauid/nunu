@@ -10,9 +10,9 @@ security:
     key: QQYnRFerJTSEcrfB89fw8prOaObmrch8
 data:
   mysql:
-    user: root:123456@tcp(127.0.0.1:3380)/user?charset=utf8mb4&parseTime=True&loc=Local
+    user: homestead:secret@tcp(127.0.0.1:3306)/homestead?charset=utf8mb4&parseTime=True&loc=Local
   redis:
-    addr: 127.0.0.1:6350
+    addr: 127.0.0.1:6379
     password: ""
     db: 0
     read_timeout: 0.2s
